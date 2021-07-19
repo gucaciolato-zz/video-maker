@@ -7,7 +7,6 @@
   "author": "Gustavo Caciolato <caciolato@outlook.com>",
   "license": "MIT",
   "dependencies": {
-    "readline-sync": "^1.4.10",
-    "utf8": "^3.0.0"
+    "readline-sync": "^1.4.10"
   }
 }
