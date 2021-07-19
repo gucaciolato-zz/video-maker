@@ -1,0 +1,9 @@
+{
+  "name": "video-maker",
+  "version": "1.0.0",
+  "description": "Open source project to make automated videos",
+  "main": "index.js",
+  "repository": "https://github.com/gucaciolato/video-maker.git",
+  "author": "Gustavo Caciolato <caciolato@outlook.com>",
+  "license": "MIT"
+}
