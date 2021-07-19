@@ -4,9 +4,18 @@ function start() {
     const content = {}
 
     content.searchTerm = askAndReturnSearchTerm()
+    content.prefix = askReturnPrefix()
 
     function askAndReturnSearchTerm() {
-        return readline.question('Digite o que gostaria de pesquisar na Wikipedia: ')
+        return readline.question('Type a wikipedia search term: ')
+    }
+
+    function askReturnPrefix() {
+        const prefixes = ['Who is', 'What is', 'The history of']
+        const selectedPrefixIndex = readline.keyInSelect(prefixes, 'Choose one option: ')
+        const selectedPrefixText = prefixes[selectedPrefixIndex]
+
+        return selectedPrefixText
     }
 
     console.log(content)
