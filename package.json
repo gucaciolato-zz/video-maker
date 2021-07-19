@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/gucaciolato/video-maker.git",
   "author": "Gustavo Caciolato <caciolato@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
